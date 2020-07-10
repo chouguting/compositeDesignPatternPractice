@@ -15,7 +15,7 @@ using namespace std;
 ///////////////////////////////////////////////////////////////
 class AbsFile {
 public:
-	virtual void ls() = 0;//*********
+	virtual void ls() = 0;
 	virtual void remove(AbsFile* f) = 0;
 protected:
 	string name_;
